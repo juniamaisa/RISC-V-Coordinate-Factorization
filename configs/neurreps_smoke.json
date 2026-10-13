@@ -1,0 +1,75 @@
+{
+  "mode_folder": "DATA/sha-test",
+  "software": "sha-test",
+  "gadget_file": "DATA/sha-test/gadgets_mnemonic_sha-test.pickle",
+  "output_dir": "results/smoke_s32",
+  "representations": [
+    "SC",
+    "4C",
+    "32C"
+  ],
+  "S_values": [
+    32
+  ],
+  "common_identities_across_S": false,
+  "seeds": [
+    11, 37, 71
+  ],
+  "data_seed": 42,
+  "max_per_class": 150,
+  "nuisance_match": true,
+  "matching_caliper": 1.0,
+  "model_budgets": [
+    "fixed_core"
+  ],
+  "epochs": 2,
+  "batch_size": 64,
+  "patience": 2,
+  "width": 8,
+  "latent_dim": 8,
+  "depth": 1,
+  "device": "auto",
+  "bootstrap_replicates": 20,
+  "counterfactual_pairs_per_stratum": 5,
+  "counterfactual_length_tolerance": 0,
+  "dimension_sample_sizes": [
+    30,
+    60
+  ],
+  "dimension_repeats": 1,
+  "latency_warmup": 1,
+  "latency_repeats": 2,
+  "persistent_homology": false,
+  "matching_max_neighbors": 50,
+  "matching_features": [
+    "raw_instruction_count",
+    "raw_byte_count",
+    "compressed_ratio",
+    "raw_zero_byte_ratio",
+    "pattern_0013_ratio",
+    "padding_rate",
+    "preserved_ratio",
+    "trunc_removed"
+  ],
+  "matching_max_abs_smd": 0.5,
+  "matching_require_balance": false,
+  "min_epochs": 1,
+  "scheduler_patience": 1,
+  "scheduler_factor": 0.5,
+  "min_lr": 1e-06,
+  "convergence_tail_epochs": 1,
+  "require_convergence": false,
+  "early_stopping_min_delta": 1e-05,
+  "counterfactual_exact_length": true,
+  "validate_intrinsic_dimension": true,
+  "require_intrinsic_validation": true,
+  "intrinsic_validation_dimensions": [
+    2,
+    5
+  ],
+  "intrinsic_validation_samples": 1000,
+  "intrinsic_validation_repeats": 1,
+  "intrinsic_validation_relative_tolerance": 0.4,
+  "intrinsic_validation_seed": 1729,
+  "device_policy": "auto_cuda_if_available_else_cpu"
+}

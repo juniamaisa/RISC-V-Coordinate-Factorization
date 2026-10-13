@@ -1,0 +1,103 @@
+{
+  "mode_folder": "DATA/sha-test",
+  "software": "sha-test",
+  "output_dir": "results/neurreps_sha_test_s32_padding_free",
+  "representations": [
+    "SC",
+    "4C",
+    "32C"
+  ],
+  "S_values": [
+    32
+  ],
+  "seeds": [
+    11,
+    37,
+    71
+  ],
+  "data_seed": 42,
+  "max_per_class": null,
+  "nuisance_match": true,
+  "matching_caliper": 0.35,
+  "model_budgets": [
+    "fixed_core"
+  ],
+  "parameter_target_representation": "4C",
+  "parameter_match_tolerance": 0.03,
+  "padding_ablation_variants": [
+    "no_padding_samples"
+  ],
+  "exact_length_fields": [
+    "slot_real_length"
+  ],
+  "padding_randomization_seed": 991,
+  "zero_cue_seed": 1231,
+  "epochs": 120,
+  "batch_size": 256,
+  "patience": 15,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "width": 32,
+  "latent_dim": 64,
+  "depth": 3,
+  "device": "auto",
+  "bootstrap_replicates": 2000,
+  "ablation_latency_warmup": 5,
+  "ablation_latency_repeats": 20,
+  "matching_max_neighbors": 50,
+  "matching_features": [
+    "raw_instruction_count",
+    "raw_byte_count",
+    "compressed_ratio",
+    "raw_zero_byte_ratio",
+    "pattern_0013_ratio",
+    "padding_rate",
+    "preserved_ratio",
+    "trunc_removed"
+  ],
+  "matching_max_abs_smd": 0.1,
+  "matching_require_balance": true,
+  "min_epochs": 30,
+  "scheduler_patience": 5,
+  "scheduler_factor": 0.5,
+  "min_lr": 1e-06,
+  "convergence_tail_epochs": 10,
+  "require_convergence": true,
+  "early_stopping_min_delta": 1e-05,
+  "counterfactual_length_tolerance": 0,
+  "counterfactual_exact_length": true,
+  "validate_intrinsic_dimension": true,
+  "require_intrinsic_validation": true,
+  "intrinsic_validation_dimensions": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "intrinsic_validation_samples": 4000,
+  "intrinsic_validation_repeats": 3,
+  "intrinsic_validation_relative_tolerance": 0.3,
+  "intrinsic_validation_seed": 1729,
+  "max_epochs": 360,
+  "epoch_extension": 60,
+  "auto_extend_epochs": true,
+  "cache_aligned_bundles": true,
+  "compress_latent_artifacts": false,
+  "inference_batch_size": 1024,
+  "rsa_max_samples": 2500,
+  "counterfactual_null_repeats": 200,
+  "cache_file_hashes": true,
+  "cache_joint_matching": true,
+  "raw_input_alignment_max_samples": 1500,
+  "resume_completed_models": true,
+  "common_identities_across_S": false,
+  "main_results_dir": "results/neurreps_sha_test_s32_main",
+  "reuse_main_original_padding": false,
+  "eval_batch_size": 1024,
+  "deterministic_torch": true,
+  "experiment_role": "padding_free_control_s32_only_v10_3seed_cuda_auto",
+  "expected_unique_cnn_trainings": 9,
+  "seed_policy": "minimal_paired_three_seed_protocol_for_focused_neurreps_submission",
+  "device_policy": "auto_cuda_if_available_else_cpu",
+  "paper_protocol_scope": "NeurReps V10 final: in-program sha-test, S=32 only, SC/4C/32C information-equivalent coordinate factorizations, 3 paired seeds, capacity and padding-free controls."
+}

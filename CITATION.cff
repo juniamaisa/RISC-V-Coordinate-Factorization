@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this research framework, please cite the associated NeurReps 2026 paper."
+title: "NeurReps: Coordinate Factorization and Learned Geometry in Machine-Code Representations"
+type: software
+abstract: >-
+  Research framework for evaluating information-equivalent coordinate factorizations
+  of RISC-V machine code (SC, 4C, and 32C), including Conv1D training, raw-input
+  accessibility probes, representation geometry, dataset controls, and matched
+  eCFG counterfactual analyses.
+authors:
+  - given-names: "Júnia Maísa"
+    family-names: Oliveira
+    affiliation: "University of Bologna"
+  - given-names: Francesco
+    family-names: Barchi
+    affiliation: "University of Bologna"
+  - given-names: Andrea
+    family-names: Acquaviva
+    affiliation: "University of Bologna"
+keywords:
+  - RISC-V
+  - machine code
+  - coordinate factorization
+  - representation learning
+  - representation geometry
+  - control-flow integrity
+  - reproducibility
+preferred-citation:
+  type: conference-paper
+  title: "Coordinate Factorization Shapes Learned Geometry in Machine-Code Representations"
+  authors:
+    - given-names: "Júnia Maísa"
+      family-names: Oliveira
+    - given-names: Francesco
+      family-names: Barchi
+    - given-names: Andrea
+      family-names: Acquaviva
+  year: 2026
+  conference:
+    name: "NeurReps 2026 Workshop at NeurIPS 2026"

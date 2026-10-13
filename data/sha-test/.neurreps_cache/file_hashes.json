@@ -1,0 +1,22 @@
+{
+  "C:\\Users\\jonatan\\Documents\\Junia\\Experimentos\\NeurReps\\neurreps_v10_final_framework\\data\\sha-test\\adjlistsha-test.pickle": {
+    "mtime_ns": 1786374266211801400,
+    "sha256": "4ee41b74aa6c3e50fb17cbdb525272d5452965e8476c1f52b3a9f13806d4a07f",
+    "size_bytes": 2097419
+  },
+  "C:\\Users\\jonatan\\Documents\\Junia\\Experimentos\\NeurReps\\neurreps_v10_final_framework\\data\\sha-test\\blocksdatasha-test.pickle": {
+    "mtime_ns": 1786374266170562200,
+    "sha256": "99c7031ccd2d18407c7b62e2d26a7a589d537e99a04a0e39545412e65a878b6d",
+    "size_bytes": 9066021
+  },
+  "C:\\Users\\jonatan\\Documents\\Junia\\Experimentos\\NeurReps\\neurreps_v10_final_framework\\data\\sha-test\\s1sha-test.pickle": {
+    "mtime_ns": 1786374330208605800,
+    "sha256": "e0bff1a4b71acb7db8f167b063f1144f09c2e00b1d61cffcb9cef21024931889",
+    "size_bytes": 3467847
+  },
+  "C:\\Users\\jonatan\\Documents\\Junia\\Experimentos\\NeurReps\\neurreps_v10_final_framework\\data\\sha-test\\s2sha-test.pickle": {
+    "mtime_ns": 1786374331425230500,
+    "sha256": "ed5aa975b969dc7ca7fdef300454eec56405e3f9d1dec3beafd033bce0974993",
+    "size_bytes": 3441145
+  }
+}

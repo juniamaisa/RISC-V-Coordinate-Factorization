@@ -1,0 +1,6 @@
+# Install the base scientific stack first:
+#   pip install -r requirements.txt
+# Then install CUDA-enabled PyTorch with:
+#   pip install -r requirements-cuda-cu121.txt
+--index-url https://download.pytorch.org/whl/cu121
+torch>=2.2

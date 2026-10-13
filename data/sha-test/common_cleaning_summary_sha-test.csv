@@ -1,0 +1,5 @@
+software,stage,s1_samples,s2_samples,removed_s1,removed_s2,note
+sha-test,raw_loaded,154714,154714,0,0,After extracting ordered hex instructions from blocksdata into raw bytes without padding.
+sha-test,cross_class_overlap_removed,154164,154223,550,491,Equal raw-byte samples found in both S1 and S2 were saved to CSV and removed from both classes before padding/truncation.
+sha-test,within_class_duplicates_preserved,154164,154223,0,0,Duplicated samples inside S1 and inside S2 were intentionally preserved.
+sha-test,final_no_balancing,154164,154223,0,0,No class balancing/downsampling was applied in the common stage.
