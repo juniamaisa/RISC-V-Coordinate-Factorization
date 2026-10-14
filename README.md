@@ -1,6 +1,8 @@
-# NeurReps Final Experiment Framework V10
+# Coordinate Factorization Shapes Learned Geometry in Machine-Code Representations
 
-This repository contains the final focused in-program experiment for the NeurReps submission.
+This repository contains the framework focused in-program experiment for the "NeurIPS Workshops on Symmetry and Geometry in Neural Representations" paper.
+
+A reproducible framework for studying coordinate factorization, linear accessibility, and learned representation geometry in RISC-V machine code.
 
 ## Scientific scope
 
@@ -25,7 +27,7 @@ The intended contribution is not a new CRA detector. The security task is a cont
 
 ## Methodological controls incorporated in V10
 
-V10 incorporates the following controls in the main experimental methodology:
+Framework incorporates the following controls in the main experimental methodology:
 
 1. representation-independent execution-context samples;
 2. summarized static + dynamic CFG reference;
