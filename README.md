@@ -127,7 +127,7 @@ python scripts\validate_final_run.py
 
 A valid paper run must contain the main, capacity, padding-free, nuisance, collision, layerwise, counterfactual, runtime, and reproducibility artifacts. It must also show model convergence and record the resolved device.
 
-## Clean only V10 results
+## Clean results
 
 Windows:
 
@@ -141,4 +141,25 @@ Linux/macOS:
 bash scripts/clean_results_linux.sh
 ```
 
-These scripts remove only V10 result directories. They do not touch `DATA/`.
+These scripts remove only result directories. They do not touch `DATA/`.
+
+
+
+## Citation
+
+If you use this framework in your research, please cite the associated paper:
+
+```bibtex
+@misc{oliveira2026coordinate,
+  author = {Oliveira, J{\'u}nia Ma{\'i}sa and Barchi, Francesco and Acquaviva, Andrea},
+  title = {Coordinate Factorization Shapes Learned Geometry in Machine-Code Representations},
+  year = {2026},
+  note = {Accepted to the NeurReps Workshop at NeurIPS 2026}
+}
+```
+
+Citation metadata is available in [CITATION.cff](./CITATION.cff).
+
+On GitHub, use **Cite this repository** to export a formatted citation.
+
+
