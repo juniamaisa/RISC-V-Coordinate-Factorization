@@ -25,7 +25,7 @@ same RISC-V execution-context sample
 
 The intended contribution is not a new CRA detector. The security task is a controlled discrete substrate for studying neural representation geometry.
 
-## Methodological controls incorporated in V10
+## Methodological controls incorporated
 
 Framework incorporates the following controls in the main experimental methodology:
 
@@ -38,7 +38,7 @@ Framework incorporates the following controls in the main experimental methodolo
 7. representation collision analysis;
 8. representation-induced shortcut audit.
 
-V10 deliberately excludes opcode-semantic representations, control-flow-enriched representations, context-length research questions, multi-architecture research questions, and random-split baselines.
+Framework deliberately excludes opcode-semantic representations, control-flow-enriched representations, context-length research questions, multi-architecture research questions, and random-split baselines.
 
 ## Experiment count
 
@@ -154,6 +154,7 @@ If you use this framework in your research, please cite the associated paper:
   author = {Oliveira, J{\'u}nia Ma{\'i}sa and Barchi, Francesco and Acquaviva, Andrea},
   title = {Coordinate Factorization Shapes Learned Geometry in Machine-Code Representations},
   year = {2026},
+  booktitle = {Proceedings of the 5th (2026) NeurIPS Workshops on Symmetry and Geometry in Neural Representations},
   note = {Accepted to the NeurReps Workshop at NeurIPS 2026}
 }
 ```
